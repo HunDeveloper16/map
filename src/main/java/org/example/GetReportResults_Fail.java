@@ -3,7 +3,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 import static java.lang.String.valueOf;
-import static java.util.Arrays.asList;
 
 /**
  * 신입사원 무지는 게시판 불량 이용자를 신고하고 처리 결과를 메일로 발송하는 시스템을 개발하려 합니다. 무지가 개발하려는 시스템은 다음과 같습니다.
@@ -68,7 +67,7 @@ import static java.util.Arrays.asList;
  * "ryan"이 "con"을 4번 신고했으나, 주어진 조건에 따라 한 유저가 같은 유저를 여러 번 신고한 경우는 신고 횟수 1회로 처리합니다. 따라서 "con"은 1회 신고당했습니다. 3번 이상 신고당한 이용자는 없으며, "con"과 "ryan"은 결과 메일을 받지 않습니다. 따라서 [0, 0]을 return 합니다.
  */
 
-public class Main {
+public class GetReportResults_Fail {
     public static void main(String[] args) {
 
 //         * 한 유저를 여러 번 신고할 수도 있지만, 동일한 유저에 대한 신고 횟수는 1회로 처리됩니다.

@@ -1,7 +1,7 @@
 package org.example;
 import java.util.*;
 
-class Solution {
+class GetReportResults_Success {
 
     public static void main(String[] args) {
 
@@ -43,17 +43,11 @@ class Solution {
             }
         }
 
-        System.out.println(id_map);
-
         int[] answer = new int[id_list.length];
 
         for(int i=0; i<id_list.length; i++){
             int value = id_map.get(id_list[i]);
             answer[i]=value;
-        }
-
-        for(Integer a : answer){
-            System.out.println(a);
         }
 
     }
